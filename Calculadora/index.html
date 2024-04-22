@@ -1,0 +1,39 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="Tabela">
+        <div>
+            <h3>Calculadora</h3>
+            <select name="Operação" id="One">
+                <option>Escolha uma operação</option>
+                <option value="Soma">+</option>
+                <option value="Subtrair">-</option>
+                <option value="Multiplica">X</option>
+                <option value="Divisao">/</option>
+            </select>
+        </div>
+        <div>
+            <h3>Primeiro Numero</h3>
+            <input type="number" id="Number1">
+        </div>
+        <div>
+            <h3>Segundo Numero</h3>
+            <input type="number" id="Number2">
+        </div>
+        <div>
+            <button type="button" onclick="Calcular()" id="Botao">Calcular</button> 
+        </div>
+        <div>
+            <h3>O resultado foi:</h3>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+</body>
+</html>

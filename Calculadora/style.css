@@ -1,0 +1,16 @@
+#Tabela{
+    justify-content: center;
+    align-items: center;
+    margin-left: 41%;
+    margin-top: 10%;
+    background-color: #B0E0E6;
+    padding: 80px;
+    margin-right: 40%;
+    text-align: center;
+}
+
+#Botao{
+    width: 177px;
+    margin-top: 10px;
+}
+
